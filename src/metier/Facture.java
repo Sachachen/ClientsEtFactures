@@ -10,10 +10,14 @@ public class Facture
 	 * Retourne le client à qui est adressée la facture..
 	 * @return le client.
 	 */
-	
+	Facture(Client client, int montant)
+	{
+	this.client = client;
+	this.montant = montant;
+	}
 	public Client getClient()
 	{
-		return null;
+		return client;
 	}
 
 	/**
@@ -23,7 +27,7 @@ public class Facture
 	
 	public int getMontant()
 	{
-		return 0;
+		return montant;
 	}
 
 	/**
@@ -43,7 +47,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return null;
+		return localdate;
 	}
 
 	/**
