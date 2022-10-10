@@ -55,8 +55,8 @@ public class Client
 
 	public List<Facture> getFactures()
 	{
-		ArrayList<Facture> facture = new ArrayList<>();
-		return facture;
+		ArrayList<Facture> factures = new ArrayList<>();
+		return factures;
 	}
 	
 	/**
@@ -78,7 +78,7 @@ public class Client
 	
 	public Facture createFacture(int montant, boolean reglee)
 	{
-		ArrayList<Facture> facture = new ArrayList<>(this, montant, reglee);
+		Facture facture = new Facture(this, montant);
 		return facture;
 	}	
 	
@@ -89,7 +89,7 @@ public class Client
 
 	public List<Facture> facturesReglees()
 	{
-		return facturesReglees(facture);
+		return facture;
 	}
 	
 
@@ -99,7 +99,7 @@ public class Client
 	 */
 	public static List<Client> tous()
 	{
-		return ;
+		return client;
 	}
 	
 	/**
