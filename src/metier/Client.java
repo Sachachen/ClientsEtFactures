@@ -89,6 +89,7 @@ public class Client
 
 	public List<Facture> facturesReglees()
 	{
+		ArrayList<Facture> facture = new ArrayList<>();
 		return facture;
 	}
 	
@@ -99,6 +100,7 @@ public class Client
 	 */
 	public static List<Client> tous()
 	{
+		ArrayList<Client> client = new ArrayList<>();
 		return client;
 	}
 	
