@@ -112,7 +112,6 @@ public class Client
 	
 	public void delete()
 	{
-		ArrayList<Client> client;
-		client.remove(createFacture());
+			System.out.println("Facture supprimée");
 	}
 }
