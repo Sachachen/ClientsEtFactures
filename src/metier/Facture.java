@@ -11,11 +11,10 @@ public class Facture
 	 * Retourne le client à qui est adressée la facture..
 	 * @return le client.
 	 */
-	Facture(Client client, int montant, LocalDate date)
+	Facture(Client client, int montant)
 	{
 		this.client = client;
 		this.montant = montant;
-		this.date = LocalDate.now();
 	}
 	public Client getClient()
 	{
