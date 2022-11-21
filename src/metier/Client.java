@@ -110,7 +110,8 @@ public class Client
 	 * @return 
 	 */
 	
-	public delete()
+	public void delete()
 	{
+		System.out.println("1");
 	}
 }
