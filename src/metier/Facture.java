@@ -7,6 +7,7 @@ public class Facture
 	private Client client;
 	private int montant;
 	private LocalDate date;
+	private boolean reglee;
 	/**
 	 * Retourne le client à qui est adressée la facture..
 	 * @return le client.
