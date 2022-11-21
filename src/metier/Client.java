@@ -107,13 +107,12 @@ public class Client
 	}
 	
 	/**
-	 * Supprime le client.
+	 * Supprime le client
 	 * @return 
 	 */
 	
 	public void delete()
 	{
-		facture = null;
-		boolean remove = facture.remove(this);
+		facture.remove(this);
 	}
 }
