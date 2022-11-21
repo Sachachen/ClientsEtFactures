@@ -59,6 +59,7 @@ public class Facture
 	
 	public void delete()
 	{
+		this.delete();
 	}
 	
 	/**
@@ -68,6 +69,7 @@ public class Facture
 	
 	public Facture copie()
 	{	
+		
 		return copie();
 	}
 }
