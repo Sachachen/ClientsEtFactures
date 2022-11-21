@@ -66,6 +66,7 @@ public class Client
 	
 	public int sommeMontants()
 	{
+		
 		return 0;
 	}
 
@@ -78,7 +79,7 @@ public class Client
 	
 	public Facture createFacture(int montant, boolean reglee)
 	{
-		Facture facture = new Facture(this, montant);
+		Facture facture = new Facture(this, montant, reglee);
 		return facture;
 	}	
 	
@@ -106,9 +107,12 @@ public class Client
 	
 	/**
 	 * Supprime le client.
+	 * @return 
 	 */
 	
 	public void delete()
 	{
+		ArrayList<Client> client;
+		client.remove(createFacture());
 	}
 }

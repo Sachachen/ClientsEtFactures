@@ -11,7 +11,7 @@ public class Facture
 	 * Retourne le client à qui est adressée la facture..
 	 * @return le client.
 	 */
-	Facture(Client client, int montant)
+	Facture(Client client, int montant, LocalDate date)
 	{
 		this.client = client;
 		this.montant = montant;
