@@ -50,7 +50,7 @@ public class Facture
 	
 	public LocalDate getDate()
 	{
-		return date;
+		return LocalDate.now();
 	}
 
 	/**
@@ -67,7 +67,7 @@ public class Facture
 	 */
 	
 	public Facture copie()
-	{
+	{	
 		return null;
 	}
 }
