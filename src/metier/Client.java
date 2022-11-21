@@ -6,7 +6,6 @@ import java.util.List;
 public class Client
 {
 	private String nom;
-
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
