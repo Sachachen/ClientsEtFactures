@@ -6,7 +6,7 @@ import java.util.List;
 public class Client
 {
 	private String nom;
-	private List<Facture> facture;
+	private ArrayList<Facture> facture;
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
@@ -113,6 +113,5 @@ public class Client
 	
 	public void delete()
 	{
-		facture.remove(this);
 	}
 }
