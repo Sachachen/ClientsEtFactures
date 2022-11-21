@@ -110,7 +110,7 @@ public class Client
 	 * @return 
 	 */
 	
-	public void delete()
+	public delete()
 	{
 	}
 }
