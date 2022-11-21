@@ -58,7 +58,6 @@ public class Facture
 	
 	public void delete()
 	{
-		client.remove(this)
 	}
 	
 	/**
