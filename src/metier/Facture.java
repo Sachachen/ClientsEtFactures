@@ -15,6 +15,7 @@ public class Facture
 	{
 		this.client = client;
 		this.montant = montant;
+		this.date = LocalDate.now();
 	}
 	public Client getClient()
 	{
@@ -57,6 +58,7 @@ public class Facture
 	
 	public void delete()
 	{
+		client.remove(this)
 	}
 	
 	/**

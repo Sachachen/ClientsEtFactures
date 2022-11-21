@@ -6,6 +6,7 @@ import java.util.List;
 public class Client
 {
 	private String nom;
+	private List<Facture> facture;
 	/** 
 	 * Crée un client.
 	 * @param nom le nom du client. 
@@ -79,7 +80,7 @@ public class Client
 	
 	public Facture createFacture(int montant, boolean reglee)
 	{
-		Facture facture = new Facture(this, montant, reglee);
+		Facture facture = new Facture(this, montant);
 		return facture;
 	}	
 	
@@ -112,6 +113,7 @@ public class Client
 	
 	public void delete()
 	{
-		System.out.println("1");
+		facture = null;
+		boolean remove = facture.remove(this);
 	}
 }
