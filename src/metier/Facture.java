@@ -70,6 +70,6 @@ public class Facture
 	public Facture copie()
 	{	
 		
-		return copie();
+		return new Facture(client,montant);
 	}
 }
